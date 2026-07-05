@@ -24,7 +24,18 @@
           "downloadURL": "https://raw.githubusercontent.com/AmorCool/IPA-Repo/refs/heads/main/IPA/Via.ipa"
         }
       ]
-    }
+    },
+    {
+      "name": "StikPair",
+      "bundleIdentifier": "com.stikpair.app",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "date": "2026-07-06",
+          "downloadURL": "https://raw.githubusercontent.com/AmorCool/IPA-Repo/refs/heads/main/IPA/StikPair-1.1.0.ipa"
+        }
+      ]
+    },
   ]
 }
 
