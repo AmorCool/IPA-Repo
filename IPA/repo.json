@@ -2,44 +2,29 @@
   "name": "AmorCool IPA Repo",
   "identifier": "com.amorcool.iparepo",
   "website": "https://github.com/AmorCool/IPA-Repo",
-  "subtitle": "自用 IPA 源",
-  "description": "收录 StikDebug 和 Via 浏览器等 IPA",
-  "tintColor": "#007AFF",
-  "iconURL": "",
-  "headerURL": "",
   "apps": [
     {
-      "beta": false,
       "name": "StikDebug",
-      "bundleIdentifier": "com.example.stikdebug",   // ← 需替换为实际 Bundle ID
-      "developerName": "未知",                        // ← 建议替换为作者名
-      "subtitle": "调试工具",
+      "bundleIdentifier": "com.stikdebug.app",
       "versions": [
         {
           "version": "3.1.6",
           "date": "2026-07-06",
-          "localizedDescription": "初始添加",
-          "downloadURL": "https://raw.githubusercontent.com/AmorCool/IPA-Repo/refs/heads/main/IPA/StikDebug-3.1.6.ipa",
-          "size": 0                                    // ← 需替换为实际字节数
+          "downloadURL": "https://raw.githubusercontent.com/AmorCool/IPA-Repo/refs/heads/main/IPA/StikDebug-3.1.6.ipa"
         }
       ]
     },
     {
-      "beta": false,
       "name": "Via浏览器",
-      "bundleIdentifier": "mark.via",                 // ← 假设值，请核实
-      "developerName": "Via团队",
-      "subtitle": "轻量浏览器",
+      "bundleIdentifier": "mark.via",
       "versions": [
         {
-          "version": "1.0.0",                         // ← 需替换为实际版本号
+          "version": "1.0.0",
           "date": "2026-07-06",
-          "localizedDescription": "初始添加",
-          "downloadURL": "https://raw.githubusercontent.com/AmorCool/IPA-Repo/refs/heads/main/IPA/Via.ipa",
-          "size": 0                                    // ← 需替换为实际字节数
+          "downloadURL": "https://raw.githubusercontent.com/AmorCool/IPA-Repo/refs/heads/main/IPA/Via.ipa"
         }
       ]
     }
-  ],
-  "news": []
+  ]
 }
+
